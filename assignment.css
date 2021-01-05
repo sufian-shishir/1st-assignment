@@ -4,28 +4,48 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
 .name-color{
     color: coral;
+}
+section{
+    height: 1000px;
+    margin: 5%
 }
 .link-color{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     color: white;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
 
 }
 .half-width{
     float: left;
-    margin-left: 7%;
+    margin: 5%;
     width: 40%;
-    margin-top: 7%;
-
+   
 }
 .half-width img{
     width: 100%;
 }
-.about{
-    margin-top: 2%;
+.pic-width{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    float: left;  
+}
+.pic-width img{
+    width: 100%;
+}
+.latest{
+    text-align: center;
+}
+.lower-part{
+    border: white;
+    background-color:gray;
 }
